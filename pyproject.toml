@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "enterprise-rag-chatbot"
+version = "1.0.0"
+description = "Enterprise RAG Chatbot with hybrid search, re-ranking, and streaming"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["rag", "llm", "fastapi", "chromadb", "nlp"]
+
+[project.scripts]
+init-db     = "scripts.init_db:main"
+run-server  = "scripts.run_server:main"
+
+[tool.pytest.ini_options]
+testpaths     = ["tests"]
+python_files  = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP"]
+ignore = ["E501"]

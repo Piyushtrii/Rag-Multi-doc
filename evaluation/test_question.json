@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Who founded Google?",
+    "ground_truth": "Google was founded by Larry Page and Sergey Brin in 1998."
+  },
+  {
+    "question": "What does Google focus on?",
+    "ground_truth": "Google focuses on search engine technology, online advertising, cloud computing, software, consumer electronics and artificial intelligence."
+  },
+  {
+    "question": "Who founded Microsoft?",
+    "ground_truth": "Microsoft was founded by Bill Gates and Paul Allen."
+  },
+  {
+    "question": "Where is Microsoft headquartered?",
+    "ground_truth": "Microsoft is headquartered in Redmond, Washington."
+  },
+  {
+    "question": "Who founded Nvidia?",
+    "ground_truth": "Nvidia was founded by Jensen Huang, Chris Malachowsky and Curtis Priem."
+  },
+  {
+    "question": "What products does Nvidia develop?",
+    "ground_truth": "Nvidia develops graphics processing units, systems on chips and APIs for data science, AI and high performance computing."
+  }
+]

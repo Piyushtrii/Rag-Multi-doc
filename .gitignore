@@ -1,0 +1,38 @@
+# Secrets
+.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Runtime data
+data/
+logs/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Notebooks (kept separate from source)
+Enterprise_RAG_Demo.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+#mlflow
+mlflow.db
+mlartifacts/
